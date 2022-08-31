@@ -1,17 +1,29 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 3
+      DOAÇÃO DE SANGUE
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar showCancelButton="always"></ion-searchbar>
+  <img
+    src="https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/doacao%20de%20sangue.jpg"
+    alt=""
+  />
+  <br>
+  
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label>COMO DOAR SANGUE</ion-label>
+    </ion-item>
+    
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <ion-card-content>
+      <li>Para doar sangue, basta procurar as unidades de coleta de sangue, como os Hemocentros, para checar se você atende aos requisitos necessários para a doação.</li>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
