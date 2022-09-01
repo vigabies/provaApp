@@ -6,12 +6,24 @@ ion-title {
   text-shadow: 3px 3px 1px black;
 }
 
-h6{
+h6 {
   text-align: center;
-  color:black;
-
+  color: rgb(19, 3, 77);
+  font-size: large;
 }
 
-ion-card{
+ion-card {
   box-shadow: 3px 3px 1px #63626248;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 600px;
+}
+
+ion-card-content {
+  color: rgb(2, 8, 17);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
 }

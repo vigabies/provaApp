@@ -5,3 +5,35 @@ ion-title {
   color: #ffffff;
   text-shadow: 3px 3px 1px black;
 }
+
+ion-card{
+  box-shadow: 1px 1px 2px rgb(172, 131, 172);
+   background-color: rgb(248, 224, 243);
+}
+
+ion-card-content{
+  color: rgb(29, 2, 27);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  }
+  
+img{
+  display: block;
+  margin: 0px auto;
+  width: 700px;
+  border-radius: 5%;
+ }
+
+
+h6{
+  text-align: center;
+  color: rgb(83, 10, 74);
+  font-size: large;
+}
+
+ion-card-title{
+text-align: left;
+color: rgb(71, 4, 77);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: large;
+}

@@ -6,3 +6,26 @@ ion-title {
   text-shadow: 3px 3px 1px black;
 }
 
+h6{
+text-align: center;
+color: rgb(80, 4, 13);
+font-size: larger;
+}
+
+img{
+  display: block;
+  margin: 0px auto;
+  width: 600px;
+  border-radius: 5%;
+ }
+
+ ion-item{
+   color:rgb(2, 0, 0);
+   
+ }
+
+ ion-card-content{
+   color: rgb(0, 0, 0);
+   background-color: rgb(226, 240, 255);
+ }
+
